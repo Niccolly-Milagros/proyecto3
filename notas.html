@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/carrusel.css">
+    <title>Notas</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="proyecto.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="somos.html"  >QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="notas.html">REGISTRO DE NOTAS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="muro.html">MURO ESCOLAR</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.calculadora.org/">CALCULADORA ESCOLAR</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="formulario.html">CONTACTANOS</a>
+                </li>
+                
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+</body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Calcular promedio en JavaScript</title>
+</head>
+<body>
+
+    <script>
+        var vr1 = prompt("Ingrese la primer nota");
+        var vr2 = prompt("Ingrese la segundo nota");
+        var vr3 = prompt("Ingrese la tercer nota");
+        var p = (parseFloat(vr1)+parseFloat(vr2)+parseFloat(vr3))/3;
+        alert("Su promedio es: "+p)
+        if (p>=12.5)
+                        {
+                            alert("USTED APROBÓ ¡FELICITACIONES!");
+                        }else
+                        {
+                            alert("USTED DESAPROBÓ")
+                        }
+        
+        </script>
+        
+
+</body>
+</html>
